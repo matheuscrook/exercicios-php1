@@ -1,0 +1,11 @@
+<?php
+
+$salbruto = 1200;
+
+$desconto = $salbruto/100;
+
+$salliquido = $salbruto-$desconto;
+
+echo "O salário bruto é de R$$salbruto, o desconto é de R$$desconto e o salário líquido é de R$$salliquido.";
+
+?>
