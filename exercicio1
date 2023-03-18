@@ -1,0 +1,23 @@
+<?php
+
+//Eu facilitei a média separando os valores da variável $numeros em um array e somando eles automaticamente usando a função "array_sum", e depois dividi esse valor do array pela contagem da função "count" que conta automaticamente todos os valores da variavel $numeros.
+
+//o codigo mais "fácil" seria:
+//
+// $numeros = 1 + 5;
+//
+// $media = $numeros/(valor manualmente contado por você);
+//
+// $metade = $media/2;
+//
+// echo "A média aritmética dos números mencionados acima é $media, e a metade da diferença é $metade.";
+
+$numeros = [1, 5];
+
+$media =  array_sum($numeros)/count($numeros);
+
+$metade = $media/2;
+
+echo "A média aritmética dos números mencionados acima é $media, e a metade da diferença é $metade.";
+
+?>
