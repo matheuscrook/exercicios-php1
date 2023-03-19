@@ -1,0 +1,19 @@
+<?php
+
+$kminicial = 12000;
+
+$kmfinal = 12040; 
+
+$kmrodado = $kmfinal-$kminicial;
+
+round($kmrodado, 2)
+
+$combustivel = 3;
+
+$kmlitro = $kmrodado/$combustivel;
+
+$litrokm = $kmlitro*$combustivel;
+
+echo "A média de km por litro é $kmlitro, e a média de litro por km é $litrokm.";
+
+?>
